@@ -29,7 +29,7 @@ class MegaraidTool():
                     index = lines.index(line)
                     if 'Solid State Device' in lines[index + 1]:
                         disk_type = "SSD"
-                    else :
+                    else:
                         disk_type = "HDD"
                     break
             if disk_type != '':
